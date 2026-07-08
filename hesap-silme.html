@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hesap Silme Talebi — Namaz Vakti</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.65;
+    color: #1c2430;
+    background: #fbfaf7;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .updated { color: #6b7280; font-size: 0.9rem; margin-bottom: 32px; }
+  h2 { font-size: 1.1rem; margin-top: 32px; color: #7c2d12; }
+  p, li { margin: 10px 0; }
+  a { color: #0f766e; }
+  .card {
+    background: #fff;
+    border: 1px solid #e5e2da;
+    border-radius: 14px;
+    padding: 24px 28px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .steps { padding-left: 22px; }
+  .steps li { margin: 6px 0; }
+  footer { margin-top: 40px; font-size: 0.85rem; color: #6b7280; text-align: center; }
+</style>
+</head>
+<body>
+  <h1>Hesap Silme Talebi</h1>
+  <div class="updated">Namaz Vakti uygulaması — Son güncelleme: 8 Temmuz 2026</div>
+
+  <div class="card">
+    <p><strong>Namaz Vakti</strong> uygulamasında isteğe bağlı olarak e-posta/şifre veya Google ile bir hesap oluşturabilirsiniz. Bu sayfa, hesabınızı ve ilişkili verilerinizi nasıl sileceğinizi açıklar.</p>
+
+    <h2>Yöntem 1 — Uygulama İçinden (En Hızlı)</h2>
+    <ol class="steps">
+      <li>Namaz Vakti uygulamasını açın.</li>
+      <li><strong>Menü → Hesabım</strong> ekranına gidin.</li>
+      <li>Oturum açmış durumdaysanız, <strong>"Hesabımı Sil"</strong> butonuna dokunun.</li>
+      <li>Açılan onay penceresinde silme işlemini onaylayın.</li>
+    </ol>
+    <p>Hesabınız bu işlemle birlikte Firebase kimlik doğrulama sisteminden <strong>anında ve kalıcı olarak</strong> silinir.</p>
+
+    <h2>Yöntem 2 — Uygulamayı Silmiş Olsanız Bile (E-posta ile Talep)</h2>
+    <p>Uygulamayı cihazınızdan kaldırdıysanız veya uygulama içinden silme işlemini tamamlayamıyorsanız, aşağıdaki adresten bize ulaşarak hesabınızın silinmesini talep edebilirsiniz:</p>
+    <p style="font-size:1.05rem;"><strong><a href="mailto:namazvaktimsin@gmail.com?subject=Hesap%20Silme%20Talebi">namazvaktimsin@gmail.com</a></strong></p>
+    <p>Talebinizde, hesabınızla ilişkili e-posta adresini belirtmeniz işlemi hızlandırır. Talepler en geç <strong>30 gün içinde</strong> işleme alınır ve tarafınıza e-posta ile onay gönderilir.</p>
+
+    <h2>Silinen Veriler</h2>
+    <ul>
+      <li>Hesap kimlik bilgileriniz (e-posta adresi, şifre bilgisi, Google hesabı bağlantısı)</li>
+      <li>Hesabınıza bağlı Premium abonelik durumu kaydı (aktif bir Google Play aboneliğiniz varsa, bunun kendisi ayrıca Google Play Store üzerinden iptal edilmelidir — bkz. aşağıda)</li>
+    </ul>
+
+    <h2>Silinmeyen / Saklanmaya Devam Eden Veriler</h2>
+    <ul>
+      <li>Cihazınızda yerel olarak saklanan tercihler (tema, bildirim ayarları vb.) hesap silme işleminden etkilenmez; bunlar zaten sunucuya hiç gönderilmemiştir ve uygulamayı cihazınızdan kaldırdığınızda otomatik olarak silinir.</li>
+      <li>Yasal yükümlülükler gerektirdiği ölçüde (ör. dolandırıcılık önleme, muhasebe kayıtları) bazı işlem kayıtları sınırlı bir süre için saklanabilir; bu süre en fazla 90 gündür.</li>
+    </ul>
+
+    <h2>Google Play Aboneliğinin İptali</h2>
+    <p>Hesap silme işlemi, aktif bir Google Play aboneliğini <strong>otomatik olarak iptal etmez</strong>. Premium aboneliğiniz varsa, ayrıca <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener">Google Play Store &gt; Ödemeler ve abonelikler</a> bölümünden iptal etmeniz gerekir.</p>
+
+    <h2>İletişim</h2>
+    <p>Sorularınız için: <a href="mailto:namazvaktimsin@gmail.com">namazvaktimsin@gmail.com</a></p>
+  </div>
+
+  <footer>Namaz Vakti Uygulaması — Hesap Silme Talebi Sayfası</footer>
+</body>
+</html>
